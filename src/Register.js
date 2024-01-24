@@ -44,7 +44,7 @@ const Register = ({ navigation }) => {
             handleError('Please input password', 'password');
             isValid = false;
         } else if (inputs.password.length < 5) {
-            handleError('Min password length of 5', 'password');
+            handleError('Minimum password length of 5', 'password');
             isValid = false;
         }
 
